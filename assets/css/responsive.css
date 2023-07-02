@@ -36,7 +36,7 @@
     .mainmenu i { margin-right: 10px; position: absolute; right: 0; }
     i.fa-solid.fa-user { right: 30px; }
    a.navbar-brand { font-weight: 900; font-size: 40px; position: absolute; left: 50%; transform: translate(-50%, -50%); top: 50%; }
-   #slider1 { margin-top: 0px; }
+   #slider1 { margin-top: 20px; }
    #section2 { margin-top: 0px; }
    .section3 {margin-top: 30px; height: 200px;}
    .section3 img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
