@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Hiker</title>
+   
+    <!--bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!--owl carousel css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+   
+    <!--font awesome css-->
+   <script src="https://kit.fontawesome.com/d14a5e9ba6.js" crossorigin="anonymous"></script>
+    <!--main css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+   
+    
+    
+   
+</head>
+
+<body>
+    <!--start header-->
+    <header id="header">
+        <div class="container">
+        
+        <div class="mainmenu">
+
+                 
+             
+                <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HIKER</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     
+    </div>
+  </div>
+  <i class="fa-solid fa-user"></i>
+ <i class="fa-solid fa-bag-shopping"></i>
+</nav>
+               </div>
+        </div>
+        <!--end mainmenu-->
+    </header>
+
+    <body>
+
+       <section id="slider1">
+           <div class="container">
+            <div class="owl-carousel owl-theme product-carousel">
+                  <div class="item">
+                    <div class="insideitemslider">
+                    <img src="assets/images/1.png" class="img-fluid"><h4>Mobile Mount</h4>
+                </div>
+                </div>
+                  <div class="item">
+                    <div class="insideitemslider"><img src="assets/images/2.jpg" class="img-fluid"><h4>Audio</h4>
+                    </div></div>
+                  <div class="item">
+                    <div class="insideitemslider">
+                        <img src="assets/images/3.jpg" class="img-fluid"><h4>Lifestyle</h4>
+                    </div>
+                    </div>
+                  <div class="item">
+                    <div class="insideitemslider">
+                    <img src="assets/images/4.jpg" class="img-fluid"><h4>Power</h4>
+                </div>
+                </div>
+
+            </div>
+           </div>
+       </section> 
+
+       <section id="section2">
+            <div class="container">
+
+                <img src="assets/images/5.jpg" class="img-fluid">
+                <div class="section3">
+ <img src="assets/images/6.jpg" class="img-fluid">
+</div>
+            </div>
+       </section>
+   
+   <section id="section4">
+        <div class="container">
+             <h2>BEST SELLER</h2>
+            <div class="owl-carousel owl-theme best-carousel">
+                  <div class="item"><img src="assets/images/1.png" class="img-fluid"><p>Mobile Stand</p><h6>INR 499</h6></div>
+                  <div class="item"><img src="assets/images/1.png" class="img-fluid"><p>Mobile Stand</p><h6>INR 499</h6></div>
+                  <div class="item"><img src="assets/images/1.png" class="img-fluid"><p>Mobile Stand</p><h6>INR 499</h6></div>
+               
+
+            </div>
+        </div>
+   </section>
+    
+
+     <section id="section4">
+        <div class="container">
+             <h2>MOBILE MOUNT</h2>
+            <div class="owl-carousel owl-theme mount-carousel">
+                  <div class="item">
+                    <div class="insideitem">
+                    <img src="assets/images/1.png" class="img-fluid"><h6>magnetic mount</h6>
+                </div>
+                </div>
+                  <div class="item">
+ <div class="insideitem">
+                    <img src="assets/images/7.jpg" class="img-fluid"><h6>ac vent</h6>
+</div>
+                </div>               
+            
+            </div>
+        </div>
+   </section>
+
+<section id="section2">
+            <div class="container">
+                <img src="assets/images/8.jpg" class="img-fluid">
+                <div class="section21">
+ <img src="assets/images/2.jpg" class="img-fluid">
+</div>
+            </div>
+       </section>
+
+        <section id="section4">
+        <div class="container">
+             <h2>LIFESTYLE</h2>
+            <div class="owl-carousel owl-theme mount-carousel">
+                  <div class="item">
+                    <div class="insideitem">
+                    <img src="assets/images/1.png" class="img-fluid"><h6>magnetic mount</h6>
+                </div>
+                </div>
+                  <div class="item">
+ <div class="insideitem">
+                    <img src="assets/images/7.jpg" class="img-fluid"><h6>ac vent</h6>
+</div>
+                </div>               
+            
+            </div>
+        </div>
+   </section>
+
+   <section id="section2">
+            <div class="container">
+                <img src="assets/images/16.jpg" class="img-fluid">
+                </div>
+       </section>
+
+<section id="section4">
+        <div class="container">
+             <h2>POWER</h2>
+            <div class="owl-carousel owl-theme mount-carousel">
+                  <div class="item">
+                    <div class="insideitem">
+                    <img src="assets/images/17.jpg" class="img-fluid"><h6>wall charger</h6>
+                </div>
+                </div>
+                  <div class="item">
+ <div class="insideitem">
+                    <img src="assets/images/17.jpg" class="img-fluid"><h6>car charger</h6>
+</div>
+                </div>               
+            
+            </div>
+        </div>
+   </section>
+
+    <section id="section2">
+            <div class="container">
+                <img src="assets/images/19.jpg" class="img-fluid">
+                </div>
+       </section>
+
+       <section id="section4">
+        <div class="container">
+             <h2>OUR CUSTOMER <i class="fa-solid fa-heart"></i> US</h2>
+            <div class="owl-carousel owl-theme mount-carousel">
+                  <div class="item">
+                    <div class="insideitem">
+                    <img src="assets/images/17.jpg" class="img-fluid"><h6>wall charger</h6>
+                </div>
+                </div>
+                  <div class="item">
+ <div class="insideitem">
+                    <img src="assets/images/17.jpg" class="img-fluid"><h6>car charger</h6>
+</div>
+                </div>               
+            
+            </div>
+        </div>
+   </section>
+
+   <section id="delivery">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="assets/images/23.png" class="img-fluid">
+                    <h5>FAST & SAFE DELIVERY</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/23.png" class="img-fluid">
+                    <h5>EASY RETURN</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/23.png" class="img-fluid">
+                    <h5>FRIENDLY SUPPORT</h5>
+                </li>
+
+            </ul>
+         </div>   
+   </section>
+
+<section id="delivery1">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="assets/images/last1.png" class="img-fluid">
+                    <h5>Mounts</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/last2.png" class="img-fluid">
+                    <h5>Audio</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/last3.png" class="img-fluid">
+                    <h5>Power</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/last4.png" class="img-fluid">
+                    <h5>Lifestyle</h5>
+                </li>
+                 <li>
+                    <img src="assets/images/last5.png" class="img-fluid">
+                    <h5>Safety</h5>
+                </li>
+
+            </ul>
+         </div>   
+   </section>
+
+    <!--end footer-->
+    <!--jQuery js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+    <!--proper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--bootstrap js-->
+  <script src="assets/js/bootstrap.min.js" ></script>
+  
+    <!--owl carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--scrollIt js-->
+    <script src="assets/js/scrollIt.min.js"></script>
+    <!--contact js-->
+    <script src="assets/js/contact.js"></script>
+    <!--validator js-->
+    <script src="assets/js/validator.min.js"></script>
+    <!--main js-->
+    <script src="assets/js/custom.js"></script>
+  
+</body>
+
+</html>
