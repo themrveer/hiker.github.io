@@ -115,6 +115,11 @@ p, ul {
     animation: animation-jump 2s ease-in-out infinite;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
 @-webkit-keyframes animation-jump {
     0% {
         top: 3px;
@@ -143,11 +148,26 @@ p, ul {
     }
 }
 
+.mainmenu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.mainmenu .leftBox {
+    flex: 1;
+    display: flex;
+    align-items: revert;
+    justify-content: space-evenly;
+}
 
-
+.iconBox {
+    display: flex;
+    align-items: center;
+}
 /*-------------------------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------------------------*/
+.leftBox a.navbar-brand-logo { font-size: 40px; font-weight: 900; }
 .mainmenu i {margin-right: 10px;}
 a.navbar-brand { font-weight: 900; font-size: 40px; }
 .insideitemslider img { width: 100%; height: 100%; object-fit: cover; object-position: left; }
@@ -155,14 +175,15 @@ a.navbar-brand { font-weight: 900; font-size: 40px; }
 .insideitemslider h4 {font-size: 11px; line-height: 20px;}
 .product-carousel .item {height: 150px;}
 .mount-carousel .item {height: 250px;}
-.insideitem {height: 200px;}
+.insideitem {height: 160px;}
 .section21 {margin-top: 20px;}
 .insideitem img { width: 100%; height: 100%; object-fit: cover; object-position: left; }
+.insideitem.insideitem1 img { width: 100%; height: 100%; object-fit: cover; object-position: right; }
 #section4 i {color: #ca0909;}
   #section4 {margin-top: 40px; margin-bottom: 30px;}
-    #delivery {margin-top: 40px;}
+    #delivery {margin-top: 40px; margin-bottom: 40px;}
     #delivery ul {display: flex; padding: 0px; list-style: none; flex-wrap: nowrap; text-align: center; justify-content: space-between;}
-    #delivery ul li h5 {font-size: 18px; font-weight: 600; line-height: 25px; margin-top: 15px;}
+    #delivery ul li h5 {font-size: 15px; font-weight: 600; line-height: 21px; margin-top: 15px;}
       #delivery1 { padding-top: 40px; background: #000; }
     #delivery1 ul {display: flex; padding: 0px; list-style: none; flex-wrap: nowrap; text-align: center; justify-content: space-between;}
     #delivery1 ul li h5 {font-size: 15px; font-weight: 600; line-height: 25px; margin-top: 15px; color: #ffffff8a;}
@@ -170,4 +191,5 @@ a.navbar-brand { font-weight: 900; font-size: 40px; }
    .mount-carousel .owl-dots { position: absolute; left: 0; right: 0; bottom: -10px; text-align: center; width: 100%; display: block !important;}
    .mount-carousel .owl-dot.active {background-color: #000;}
    .mount-carousel .owl-dot {width: 35px; height: 5px; background-color: #0c246145; display: inline-block; margin: 0 6px; text-align: center; }
-
+.insideitem h6 { text-transform: uppercase; font-size: 16px; font-weight: 600; }
+i.fa-brands.fa-instagram { color: #000 !important; }

@@ -1,119 +1,89 @@
-(function ($) {
-    "use strict";
+$('.product-carousel').owlCarousel({     center:true,
 
-    $(document).ready(function () {
+    loop: true,
+    navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+    nav: false,
+    autoplay: false,
 
-        /*---------------------------------------------------
-            product carousel
-        ----------------------------------------------------*/
-        $('.product-carousel').owlCarousel({
-             center:true,
-
-            loop: true,
-            navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
-            nav: false,
-            autoplay: false,
-
-            autoplayTimeout: 5000,
-            smartSpeed: 450,
-            margin: 20,
-            responsive: {
-                0: {
-                    items: 4
-                },
-                768: {
-                    items: 4
-                },
-                991: {
-                    items: 4
-                },
-                1200: {
-                    items: 4
-                },
-                1920: {
-                    items: 4
-                }
-            }
-        });
-
-        /*---------------------------------------------------
-            slider carousel
-        ----------------------------------------------------*/
-         $('.best-carousel').owlCarousel({
-             center:true,
-             
-            loop: false,
-            navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
-            nav: false,
-            autoplay: false,
-
-            autoplayTimeout: 5000,
-            smartSpeed: 450,
-            margin: 20,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                768: {
-                    items: 4
-                },
-                991: {
-                    items: 4
-                },
-                1200: {
-                    items: 4
-                },
-                1920: {
-                    items: 4
-                }
-            }
-        });
-
-           $('.mount-carousel').owlCarousel({
-             center:true,
-             
-            loop: false,
-            navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
-            nav: false,
-            autoplay: false,
-
-            autoplayTimeout: 5000,
-            smartSpeed: 450,
-            margin: 20,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                768: {
-                    items: 4
-                },
-                991: {
-                    items: 4
-                },
-                1200: {
-                    items: 4
-                },
-                1920: {
-                    items: 4
-                }
-            }
-        });
-
-       
-
-       
-
-     
-
-        /*---------------------------------------------------
-            scrollIt plugin activation
-        ----------------------------------------------------*/
-        $.scrollIt();
+    autoplayTimeout: 5000,
+    smartSpeed: 450,
+    margin: 20,
+    responsive: {
+        0: {
+            items: 4
+        },
+        768: {
+            items: 4
+        },
+        991: {
+            items: 4
+        },
+        1200: {
+            items: 4
+        },
+        1920: {
+            items: 4
+        }
+    }
+});
 
 
-    });
+$('.best-carousel').owlCarousel({
+    center:true,
+    
+   loop: false,
+   navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+   nav: false,
+   autoplay: false,
 
-   
- 
+   autoplayTimeout: 5000,
+   smartSpeed: 450,
+   margin: 20,
+   responsive: {
+       0: {
+           items: 2
+       },
+       768: {
+           items: 4
+       },
+       991: {
+           items: 4
+       },
+       1200: {
+           items: 4
+       },
+       1920: {
+           items: 4
+       }
+   }
+});
 
-}(jQuery));
+  $('.mount-carousel').owlCarousel({
+    center:true,
+    
+   loop: false,
+   navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+   nav: false,
+   autoplay: false,
+
+   autoplayTimeout: 5000,
+   smartSpeed: 450,
+   margin: 20,
+   responsive: {
+       0: {
+           items: 2
+       },
+       768: {
+           items: 4
+       },
+       991: {
+           items: 4
+       },
+       1200: {
+           items: 4
+       },
+       1920: {
+           items: 4
+       }
+   }
+});
